@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--This website is made for fun and this website is inspired by some other website, and i use the code from that website aswell but i change it a bit. So if you want to check the original website here is a link
+    https://thisisnotajumpscare.com-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bukan jumpscare.</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+        body {
+            background-color: rgb(8, 8, 8);
+        }
+
+        .tengah {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #anu {
+            font-weight: 300;
+            font-family: Poppins, sans-serif;
+            font-size: 30px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="tengah">
+        <div id="anu"></div>
+    </div>
+    <script>
+        var text = [
+            "Ini bukan jumpscare.",
+            "Ini benar-benar bukan jumpscare.",
+            "Jangan khawatir. Tenang.",
+            "Ini hanya teks.",
+            "Gak ada hal menakutkan yang akan tiba-tiba muncul.",
+            "Kamu gak perlu merasa tegang.",
+            "Kamu gak harus berjaga-jaga.",
+            "gak ada jumpscare yang akan segera terjadi.",
+            "Percayalah. Tenang.",
+            "Situs ini gak berbahaya.",
+            "Tenang.",
+            "Aku gak akan menakutimu.",
+            "Jangan khawatir.",
+            "Saya benar-benar tulus sekarang.",
+            "Saya terlalu menghormati Anda untuk menakut-nakuti Anda, hanya untuk hiburan saya.",
+            "Jadi jangan khawatir sama sekali.",
+            "Silahkan.",
+            "Santai.",
+            "Cobalah untuk memikirkan hal-hal yang menyenangkan dan tenang.",
+            "Kamu tahu...",
+            " ",
+            "Ini akan menjadi waktu yang tepat untuk melakukan jumpscare sekarang, bukan?",
+            "Sekarang kita sudah berkenalan.",
+            "Kamu hampir bosan dengan permainan ini sekarang, bukan?",
+            "'Ya ya, aku mengerti maksudnya, apakah kita akan melakukan jumpscare ini atau bagaimana?'",
+            "Apakah itu yang kamu pikirkan?",
+            "Aku gak bisa menyalahkanmu. Aku benar-benar gak bisa.",
+            "Tapi kamu salah.",
+            "gak ada jumpscare di situs ini.",
+            "Kecuali jika Anda secara gak sengaja menakut-nakuti diri sendiri,",
+            "mungkin sambil mengklik mouse Anda,",
+            "maka situs ini gak akan membuat Anda takut.",
+            "Jika itu terjadi, saya akan merasakan empati yang mendalam atas penderitaan Anda.",
+            "Namun, saya gak dapat mengambil tanggung jawab kausal, karena itu bukan milik saya.",
+            "Saya, secara pribadi, saya gak akan membawa jumpscare ke dunia ini.",
+            " ",
+            "Lihat.",
+            "Anak.",
+            "Saya gak bisa menjanjikan apa yang orang lain akan lakukan.",
+            "Tapi aku sangat tahu ini:",
+            "Situs ini, di sini, bukan menakut-nakuti.",
+            "Situs lain mungkin.",
+            "Bahkan, saya bisa menunjukkan beberapa situs jumpscare,",
+            "Apakah saya sangat ingin,",
+            "tapi situs ini bukan salah satunya.",
+            "gak terlalu banyak, selain teks, sungguh, ketika Anda memikirkannya.",
+            "Semacam situs web yang kurus dan kurus.",
+            "SMS saja.",
+            "Mungkin sosok geometris, untuk satu contoh singkat dalam waktu:",
+            "Mungkin bahkan gak.",
+            "Sudah berapa lama kamu di sini sekarang?",
+            "Dan tetap saja, gak ada lompatan ketakutan?",
+            "Dan kamu masih meragukan kata-kataku?",
+            "Dan mempertanyakan kehormatanku?",
+            "Alasan apa lagi yang bisa ada,",
+            "Apakah Anda masih melihat situs web ini?",
+            "Saya sudah bilang gak ada jumpscare.",
+            "Anda gak mengalami jumpscare.",
+            "Jadi kenapa",
+            "Apakah kamu",
+            "di sini?",
+            "Lihat, periksa kode [F12 di Chrome] jika Anda gak percaya padaku.",
+            "Aku gak menyembunyikan apa pun.",
+            "gak ada apa-apa selain variabel dan fungsi dan hal-hal di sana.",
+            "Singkirkan dirimu sendiri.",
+            "Pergi, seperti yang mereka katakan, amuk.",
+            "Aku gak akan memanfaatkanmu.",
+    		"Bahkan saat Anda melihat kode.",
+            "'Seperti apa bentuknya?'",
+            "Yah, gak seperti ini, kan?",
+            "Percaya padaku sekarang?",
+            "Atau menurutmu aku secerdas itu?",
+            "Bahwa saya semacam Html Lecter?",
+            "Menemukan kesenangan yang luar biasa dalam kebingungan Anda?",
+            "Hah!",
+            "Aku gak akan pernah melakukan hal seperti itu.",
+            "Menyeberangi hatiku dan berharap untuk mati.",
+            "Saya gak percaya saya mendaftarkan nama domain untuk lelucon ini.",
+            "Aku benar-benar harus membuat lompatan ketakutan.",
+            "Mungkin menjadikannya game transaksi mikro.",
+            "Tunggu sehari atau bayar $5 untuk kemungkinan jumpscare berikutnya.",
+            "gak potensial seperti menunggu untuk diekspresikan menjadi kenyataan.",
+            "Hanya potensi dalam arti agnostik.",
+            "Saya gak bisa mengatakan itu gak mungkin terjadi.",
+            "Mungkin kesalahan parah 'terjadi begitu saja'.",
+            "Mungkin sesuatu yang gak bisa kamu lupakan, gak peduli seberapa besar kamu menginginkannya.",
+            "Menakutkanmu benar-benar buruk.",
+            "Salah satu jumpscare yang membuat jantung Anda berdetak lebih cepat.",
+            "Terlalu lama.",
+            "Dan di mana Anda merasa gelisah sepanjang hari.",
+            "Salah satu dari itu.",
+            " ",
+            " ",
+            "Tapi kecuali aku salah,",
+            "gak ada yang seperti itu,",
+            "sudah terjadi.",
+            "Tahan!",
+            "Apakah sesuatu baru saja terjadi?!",
+            " ",
+            "Gak bro.",
+            "Gak.",
+            " ",
+            "Saya sudah lelah..",
+            "Selamat tinggal.",
+            "Sayonara",
+            " ",
+            "Kau masih disini?",
+            "Apa yang bisa ku lakukan..",
+            " "
+            ];
+            var x = -1;
+            var gantian;  
+
+             function perubahanteks(){
+               	x++;
+            	if (x < text.length){
+            		gantian = text[x];
+            		document.getElementById("anu").innerHTML = gantian;
+              	}
+                else if (x == text.length) {
+                    x = -1;
+                }
+              };
+          
+            var delay = setInterval(function(){
+                perubahanteks()
+            },5000);
+    </script>
+</body>
+</html>
